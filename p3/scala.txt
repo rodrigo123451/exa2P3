@@ -1,0 +1,10 @@
+//---------ejercicio3----
+"hello world".split(" ").foreach(println)
+
+def cadena(a:String)= a.split(" ").foreach(println)
+//salida
+cadena("hola rodrigo como estas ")
+
+def cadena(a:String)= for(ch<-a) println(" " + ch + " ")
+// salida
+cadena("hola rodrigo como estas")
